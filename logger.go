@@ -3,7 +3,7 @@ package watermill
 
 import (
 	"github.com/ThreeDotsLabs/watermill"
-	"github.com/goph/logur"
+	"logur.dev/logur"
 )
 
 // ErrorHandler handles an error passed to the logger.

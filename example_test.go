@@ -1,7 +1,7 @@
 package watermill_test
 
 import (
-	"github.com/goph/logur"
+	"logur.dev/logur"
 
 	watermillintegration "logur.dev/integration/watermill"
 )

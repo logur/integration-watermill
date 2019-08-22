@@ -21,7 +21,7 @@ go get logur.dev/integration/watermill
 package main
 
 import (
-	"github.com/goph/logur"
+	"logur.dev/logur"
 	watermillintegration "logur.dev/integration/watermill"
 )
 
