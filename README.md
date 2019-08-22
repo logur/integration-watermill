@@ -1,17 +1,17 @@
-# Logur integration for TEMPLATE
+# Logur integration for [Watermill](https://github.com/ThreeDotsLabs/watermill)
 
-[![CircleCI](https://circleci.com/gh/logur/integration-template.svg?style=svg)](https://circleci.com/gh/logur/integration-template)
-[![Coverage](https://gocover.io/_badge/logur.dev/integration/template)](https://gocover.io/logur.dev/integration/template)
-[![Go Report Card](https://goreportcard.com/badge/logur.dev/integration/template?style=flat-square)](https://goreportcard.com/report/logur.dev/integration/template)
-[![GolangCI](https://golangci.com/badges/github.com/logur/integration-template.svg)](https://golangci.com/r/github.com/logur/integration-template)
-[![Go Version](https://img.shields.io/badge/go%20version-%3E=1.11-61CFDD.svg?style=flat-square)](https://github.com/logur/integration-template)
-[![GoDoc](http://img.shields.io/badge/godoc-reference-5272B4.svg?style=flat-square)](https://godoc.org/logur.dev/integration/template)
+[![CircleCI](https://circleci.com/gh/logur/integration-watermill.svg?style=svg)](https://circleci.com/gh/logur/integration-watermill)
+[![Coverage](https://gocover.io/_badge/logur.dev/integration/watermill)](https://gocover.io/logur.dev/integration/watermill)
+[![Go Report Card](https://goreportcard.com/badge/logur.dev/integration/watermill?style=flat-square)](https://goreportcard.com/report/logur.dev/integration/watermill)
+[![GolangCI](https://golangci.com/badges/github.com/logur/integration-watermill.svg)](https://golangci.com/r/github.com/logur/integration-watermill)
+[![Go Version](https://img.shields.io/badge/go%20version-%3E=1.11-61CFDD.svg?style=flat-square)](https://github.com/logur/integration-watermill)
+[![GoDoc](http://img.shields.io/badge/godoc-reference-5272B4.svg?style=flat-square)](https://godoc.org/logur.dev/integration/watermill)
 
 
 ## Installation
 
 ```bash
-go get logur.dev/integration/template
+go get logur.dev/integration/watermill
 ```
 
 
@@ -22,11 +22,11 @@ package main
 
 import (
 	"github.com/goph/logur"
-	templateintegration "logur.dev/integration/template"
+	watermillintegration "logur.dev/integration/watermill"
 )
 
 func main() {
-	logger := templateintegration.New(logur.NewNoopLogger())
+	logger := watermillintegration.New(logur.NewNoopLogger())
 }
 ```
 

@@ -1,13 +1,13 @@
-package template_test
+package watermill_test
 
 import (
 	"github.com/goph/logur"
 
-	templateintegration "logur.dev/integration/template"
+	watermillintegration "logur.dev/integration/watermill"
 )
 
 func ExampleNew() {
-	logger := templateintegration.New(logur.NewNoopLogger())
+	logger := watermillintegration.New(logur.NewNoopLogger())
 
 	// Output:
 	_ = logger
