@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+
+## [0.2.1] - 2019-09-05
+
 ### Fixed
 
 - Nil panic when error handler is not configured and no fields are passed to the Error method
@@ -26,5 +29,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Initial release
 
 
-[Unreleased]: https://github.com/logur/integration-watermill/compare/v0.2.0...HEAD
+[Unreleased]: https://github.com/logur/integration-watermill/compare/v0.2.1...HEAD
+[0.2.1]: https://github.com/logur/integration-watermill/compare/v0.2.0...v0.2.1
 [0.2.0]: https://github.com/logur/integration-watermill/compare/v0.1.0...v0.2.0
