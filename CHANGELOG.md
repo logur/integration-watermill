@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Fixed
+
+- Nil panic when error handler is not configured and no fields are passed to the Error method
+
 
 ## [0.2.0] - 2019-08-23
 
