@@ -34,6 +34,10 @@ func NewWithErrorHandler(logger logur.Logger, errorHandler ErrorHandler) *Logger
 
 func (l *Logger) Error(msg string, err error, fields watermill.LogFields) {
 	if l.errorHandler == nil {
+		if fields == nil {
+			fields = watermill.LogFields{}
+		}
+
 		fields["err"] = err
 
 		l.logger.Error(msg, fields)
