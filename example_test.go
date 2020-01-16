@@ -7,7 +7,7 @@ import (
 )
 
 func ExampleNew() {
-	logger := watermillintegration.New(logur.NewNoopLogger())
+	logger := watermillintegration.New(logur.NoopLogger{})
 
 	// Output:
 	_ = logger
