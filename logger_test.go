@@ -18,7 +18,7 @@ func TestLogger(t *testing.T) {
 }
 
 func TestLogger_Error_NilFields(t *testing.T) {
-	testLogger := logur.NewTestLogger()
+	testLogger := &logur.TestLogger{}
 	logger := New(testLogger)
 
 	err := errors.New("error")
