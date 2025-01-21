@@ -1,3 +1,8 @@
+> [!WARNING]
+> This project is archived and no longer maintained. Consider using [`log/slog`](https://pkg.go.dev/log/slog) instead.
+>
+> Read more about why it was archived in [this post](https://sagikazarmark.com/blog/posts/less-is-more-archive-projects-for-a-better-open-source-ecosystem/).
+
 # Logur integration for [Watermill](https://github.com/ThreeDotsLabs/watermill)
 
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/logur/integration-watermill/CI?style=flat-square)](https://github.com/logur/integration-watermill/actions?query=workflow%3ACI)
